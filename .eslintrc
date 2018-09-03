@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "singleQuote": true,
+        "printWidth": 120
+      }
+    ]
+  },
+  "plugins": [
+    "prettier"
+  ]
+}
