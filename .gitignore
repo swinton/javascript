@@ -76,4 +76,4 @@ typings/
 .fusebox/
 
 # GitHub Apps private key file
-.pem
+*.pem
