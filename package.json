@@ -6,13 +6,21 @@
   "main": "index.js",
   "license": "ISC",
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swinton/javascript.git"
+  },
   "scripts": {
     "start": "node ./index.js",
     "dev": "nodemon",
     "test": "jest && eslint index.js 'lib/**.js' 'test/**.js'",
     "lint": "eslint index.js 'lib/**.js' 'test/**.js' --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-format": "^0.2.1",
+    "dotenv": "^8.0.0"
+  },
   "devDependencies": {
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
